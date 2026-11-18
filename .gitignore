@@ -1,0 +1,20 @@
+# Données Retail volumineuses
+*.dat
+data/
+data_refresh/
+
+# Secrets et identifiants
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*password*
+*secret*
+
+# Volumes et fichiers temporaires
+hdfs-data/
+nifi-data/
+*.log
+.DS_Store
+__pycache__/

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<configuration>
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file:///hdfs/namenode</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///hdfs/datanode</value>
+  </property>
+  <property>
+    <name>dfs.namenode.rpc-address</name>
+    <value>retail-hadoop:9000</value>
+  </property>
+  <property>
+    <name>dfs.namenode.http-address</name>
+    <value>0.0.0.0:9870</value>
+  </property>
+  <property>
+    <name>dfs.datanode.hostname</name>
+    <value>retail-hadoop</value>
+  </property>
+</configuration>
